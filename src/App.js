@@ -1,12 +1,14 @@
 import React from 'react';
+import List from './List/List'
 import './App.css';
+
 
 // every component gets its own JS file!
 
 function App() {
   return (
-    <div>
-        
+    <div className="App">
+        <List />
     </div>
   );
 }

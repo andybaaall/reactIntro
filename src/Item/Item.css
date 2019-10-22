@@ -1,0 +1,16 @@
+.ListItem {
+    margin-bottom: 0.4rem;
+    display: flex;
+    text-align: left;
+}
+
+.ListText {
+    border: 1px solid white;
+    word-break: break-word;
+    flex: 1 1;
+    padding: 0.8rem;
+}
+
+.ListButtons {
+    display: flex;
+}
