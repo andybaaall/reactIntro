@@ -8,11 +8,8 @@ import Test from './Test';
 function App() {
   return (
     <div>
-        <Test message="This is component 1"/>
-        <Test message="This is component 2"/>
-        <Test message="This is component 3"/>
-        <Test message="This is component 4"/>
-        <Test message="This is component 5"/>
+        <Test message="This is component 1, defined in Test.js"/>
+        <Test message="This is component 2, defined in Test.js"/>
     </div>
   );
 }
