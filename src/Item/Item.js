@@ -9,7 +9,7 @@ class Item extends Component {
         return(
             <div className="ListItem">
                 <div className="ListText">
-                    Item One
+                    {this.props.itemInfo.text}
                 </div>
                 <Button btnText="Buy me!" btnType="greyBtn"/>
                 <Button btnText="Edit" btnType="darkGreyBtn"/>
